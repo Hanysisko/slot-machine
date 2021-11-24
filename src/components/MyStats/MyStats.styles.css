@@ -1,0 +1,12 @@
+#squaregrid{
+  margin: 30px 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+  height: 20vw;
+}
+
+.square{
+  border: 3px solid rgba(10, 10, 10, 1);
+  border-radius: 10px;
+}
